@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="description" content="LuminarK Holdings - Portofolio Investasi Pribadi Muhammad Burhanudin Syaifullah Azmi" />
+    <meta name="keywords" content="portfolio, investment, saham, crypto, reksadana, emas, obligasi" />
+    <title>LuminarK Holdings - Portfolio Manager</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    
+    <link rel="stylesheet" href="styles.css" />
+    
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react",
+          "react-dom/client": "https://esm.sh/react-dom/client",
+          "react-router": "https://esm.sh/react-router"
+        }
+      }
+    </script>
+    
+    <script src="utils/storage.js"></script>
+    <script src="utils/calculations.js"></script>
+    <script src="utils/export.js"></script>
+    
+    <script type="text/babel" data-type="module" src="components/Header.jsx"></script>
+    <script type="text/babel" data-type="module" src="components/Footer.jsx"></script>
+    <script type="text/babel" data-type="module" src="components/InvestmentCard.jsx"></script>
+    <script type="text/babel" data-type="module" src="components/StatsCard.jsx"></script>
+    <script type="text/babel" data-type="module" src="components/ROICalculator.jsx"></script>
+    <script type="text/babel" data-type="module" src="components/ScrollToTop.jsx"></script>
+    
+    <script type="text/babel" data-type="module" src="pages/Home.jsx"></script>
+    <script type="text/babel" data-type="module" src="pages/Portfolio.jsx"></script>
+    <script type="text/babel" data-type="module" src="pages/InvestmentDetail.jsx"></script>
+    <script type="text/babel" data-type="module" src="pages/Statistics.jsx"></script>
+    <script type="text/babel" data-type="module" src="pages/Reports.jsx"></script>
+    <script type="text/babel" data-type="module" src="pages/AdminDashboard.jsx"></script>
+    
+    <script type="text/babel" data-type="module" src="app.jsx"></script>
+  </head>
+  <body>
+    <div id="renderDiv"></div>
+  </body>
+</html>
